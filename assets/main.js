@@ -1,7 +1,7 @@
 function convertToFahrenheit() {
     let celsiusTemp = parseFloat(document.getElementById("input").value);
     let fahrenheit = (celsiusTemp * 9 / 5) + 32;
-    document.getElementById("output").innerHTML = fahrenheit + "°F";
+    document.getElementById("output").innerHTML = fahrenheit.toFixed(2) + "°F";
 }
 
 function convertToCelsius() {
